@@ -24,11 +24,21 @@
             transform: translate(-50%, -50%);
             text-align: center;
         }
+        .bootstrap-alert {
+            position: fixed;
+            top:0; left: 0;
+            width: 100% !important;
+            margin: 0 !important;
+            z-index: 11;
+            font-size: 18px;
+            padding: 30px;
+            color: black;
+        }
     </style>
 
 </head>
 <body>
-<div style="position: fixed; top:0; left: 0; width: 100% !important; margin: 0 !important; z-index: 11; font-size: 18px; padding: 30px; color: black;" class="alert alert-warning alert-dismissible fade show" role="alert">
+<div class="bootstrap-alert alert alert-warning alert-dismissible fade show" role="alert">
     <b>Bootstrap alert example</b> - <a style="color: black;" href="#"><u>Læs mere her</u></a>
     <button style="padding: inherit; font-size: 30px;" type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
